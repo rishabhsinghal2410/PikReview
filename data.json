@@ -1,0 +1,15 @@
+{"ReviewContent":[
+    {"Comments":[
+	    {"userId":"John", "text":"Doe"},
+		{"userId":"John", "text":"Doe"},
+		{"userId":"John", "text":"Doe"}
+	]},
+    {"Images":[
+	    {"pikUrl":"<pikUrl>"},
+		{"pikUrl":"<pikUrl>"}
+	]},
+	{"description":"<desctiption>"},
+	{"hits":"<hits>"},
+    {"vendorUrl":"<vendorUrl>"},
+	{"reviewer":"<userId>"}
+]}

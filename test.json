@@ -1,0 +1,27 @@
+<?php
+
+$arrayDateAndMachine = array( 
+    array(1999, 3.0), 
+    array(2000, 3.9),
+);
+
+$arr = array("label" => "Devices per year", 
+             "data" => $arrayDateAndMachine);
+
+var_dump(json_encode($arr));
+
+array("ReviewContent"=> 
+    array("Comments"=>array(
+	    array("userId"=>"John", "text"=>"Doe"),
+		array("userId"=>"John", "text"=>"Doe"),
+		array("userId"=>"John", "text"=>"Doe")
+	    ),
+        ("Images"=>array(
+	    array("pikUrl"=>"<pikUrl>"),
+		array("pikUrl"=>"<pikUrl>")
+	)),
+	("description"=>"<desctiption>"),
+	("hits"=>"<hits>"),
+    ("vendorUrl"=>"<vendorUrl>"),
+	("reviewer"=>"<userId>")
+))
